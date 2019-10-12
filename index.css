@@ -1,0 +1,165 @@
+body {
+  position: relative;
+  background-color: #fff;
+  height: 100%;
+}
+
+.block {
+  background: #f57595;
+  font: bold 22px 'Georgia', Sans, tahoma;
+  margin-top: -20px;
+  padding: -40px 0px 0px 0px;
+  text-align: center;
+}
+.text{
+  margin: auto;
+}
+h2 {
+  padding-top: -40px;
+}
+.navbar-nav {
+    max-width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: red;
+
+   >li {
+      float: none;
+      display: inline-block;
+      font: bold 22px 'Times', sans-serif;
+    }
+}
+button {
+  background-color: #dedede;
+  margin: 20px;
+  font: bold 10px "Tahoma";
+}
+
+section {
+  padding: 33px 0;
+}
+
+.section-title {
+    font-size: 2.6em;
+  }
+
+  .line {
+    height: 3px;
+    width: 70px;
+    position: relative;
+    top: -40px;
+    display: inline-block;
+    background-color: #000;
+  }
+ .fa-text {
+  top: -30px;
+  position: relative;
+}
+
+
+.box {
+    text-align:center;
+    padding: 2% 0;
+    background-color: #dedede;
+    border-radius: 25px;
+    width: 60%;
+    margin: auto 20%;
+
+}
+.box img{
+    border-radius: 100%;
+    width: 35%;
+     /*border: 1px #eae8e7;
+    margin: -101px 0 0 0;*/
+}
+p{
+    font-family: 'Bitter', serif;
+}
+
+.SocialInfo{
+    margin:auto;
+    padding: 0  0 20px 0;
+}
+.socialInfo ul{
+    list-style: none;
+    text-align: center;
+
+}
+.SocialInfo li{
+    display: inline-block;
+    margin: 0px 41px 0 7px;
+}
+.SocialInfo a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+.SocialInfo a:hover{
+    color: #f57595;
+}
+.SocialInfo .fa{
+    margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#pastwork {
+  padding-top: 50px;
+  margin: 30px;
+  height: 300px;
+  background-color: #1affff;
+  color: #fff;
+  border-radius: 25px;
+}
+
+#education {
+  margin: 30px 0 0 0;
+  padding-top: 50px;
+  height: 600px;
+  color: #fff;
+  background-color: transparent;
+
+}
+
+#contact {
+  padding-top: 50px;
+  height: 300px;
+  color: #fff;
+  background-color: #00bcd4;
+  margin: 20px;
+  border-radius: 25px;
+}
+#pastwork, #contact {
+  margin: 40px auto 0;
+  max-width: 2000px;
+  overflow-y: auto;
+}
+.GetInTouch li, .portfolio ul {
+  font-size: 1.4rem;
+}
+.GetInTouch li, .portfolio li{
+    display: inline-block;
+    margin: 20px 30px;
+    width: 200px;
+    text-align: center;
+}
+.GetInTouch a{
+    text-decoration: none;
+    color: #dedede;
+    text-align: center;
+}
+.GetInTouch a:hover{
+    color:  #000;
+}
+.GetInTouch .fa{
+    margin: auto;
+    text-align: center;
+}
+footer {
+  margin: 30px 0 0 0;
+  height: 100px;
+  background-color: #f57595;
+}
